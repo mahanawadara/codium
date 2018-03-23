@@ -19,7 +19,7 @@ export class CalculateComponent implements OnInit {
     this.resultCalculate = this._calculate(this.inputNumber);
   }
 
-  public _calculate(n: string): number {
+  private _calculate(n: string): number {
     // tslint:disable-next-line:no-eval
     return eval(n);
   }
