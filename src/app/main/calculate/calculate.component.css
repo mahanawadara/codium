@@ -1,0 +1,31 @@
+.calculate {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+  background-color: lightgray;
+  width:20%;
+  height:200px;
+}
+
+h1 {
+  margin-left:24%;
+}
+
+input {
+  width: 200px;
+  height:22px;
+  margin-left:12%;
+  margin-right:75px;
+}
+
+h3 {
+  margin-top:22px;
+  margin-left: 28px;
+}
+
+button {
+  margin-top:10px;
+  margin-left: 86px;
+  width:100px;
+  height: 34px;
+}

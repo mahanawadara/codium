@@ -1,4 +1,6 @@
-<h1>Calculate</h1>
-<input name="cal_namber" [(ngModel)]="inputNumber">
-<button (click)="submit()">click</button>
-<h3 *ngIf="resultCalculate"> result : {{resultCalculate | number}}</h3>
+<div class="calculate">
+  <h1>Calculate</h1>
+  <input name="cal_namber" [(ngModel)]="inputNumber">
+  <button (click)="submit()">click</button>
+  <h3> result : {{resultCalculate | number}}</h3>
+</div>
